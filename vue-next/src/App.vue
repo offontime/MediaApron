@@ -3,19 +3,11 @@
 
 <template>
   <div class="main">
-    <ap-video
-      source="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
-      poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+    <ap-audio
+      source="https://cdn.offontime.com/mp3/%E5%BD%AD%E5%AF%92%20-%203%EF%BC%9A7%EF%BC%88%E8%AF%86%E5%88%AB%E6%95%B0%E5%AD%97%EF%BC%89.mp3"
       :volume="50"
-      :buttons="[
-        {
-          name: '下载',
-          image: 'https://ai.tideo.cn/logo.png',
-          callback: () => { console.log(0) }
-        },
-        'fullscreen'
-      ]"
-      ></ap-video>
+      mini
+      ></ap-audio>
   </div>
 </template>
 

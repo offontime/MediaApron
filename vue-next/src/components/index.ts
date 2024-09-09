@@ -1,6 +1,8 @@
 import Video from './video.vue'
+import Audio from './audio.vue'
 
 const components = [
+  Audio,
   Video
 ]
 
@@ -17,5 +19,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
+  Audio,
   Video
 }

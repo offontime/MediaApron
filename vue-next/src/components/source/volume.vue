@@ -119,6 +119,10 @@ const getVolumeLevel = (vol: number) => {
   }
   .volume-button {
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .volume-value-container {
     width: 80px;

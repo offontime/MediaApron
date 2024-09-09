@@ -1,6 +1,6 @@
 {
   "name": "@media-apron/vue-next",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./lib/@media-apron/vue-next.mjs",
   "repository": {
     "type": "git",

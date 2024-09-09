@@ -48,7 +48,6 @@ const props = defineProps({
   }
 })
 const videoRef = ref()
-const viewPoster = ref(true)
 const currentVideoUrl = ref('')
 const currentVideoIndex = ref(0)
 const videoList = ref([])
@@ -77,7 +76,7 @@ const init = (index: number) => {
   }
   videoList.value = source
   currentVideoUrl.value = source[0].url
-  isSingleVideo = false
+  isSingleVideo.value = false
 }
 
 init()
